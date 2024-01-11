@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     <form method="POST" action="../controller/controller.php" id="styleFormContact">
@@ -17,7 +17,7 @@
 
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" rows="4" required class="input_field"></textarea>
-
+        
         <button type="submit">Enviar</button>
     </form>
 </body>

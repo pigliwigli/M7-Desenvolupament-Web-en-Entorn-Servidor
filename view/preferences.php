@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     <form method="POST" action="../controller/controller.php" id="styleFormPreferences">
@@ -32,7 +32,7 @@
 
                 <label for="Shooter"> 
                     <input type="checkbox" id="Shooter" name="Shooter" required class="space_marginbm label_layout">Shooter
-                </label>    
+                </label>
                        
         </div>
         <button type="submit">Login</button>
