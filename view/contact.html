@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style/style.css">
 </head>
     <body>
-        <form method="POST" action="../controller/controller.php" id="styleFormContact">
+        <form method="POST" action="../controller/controller.php" id="styleFormContact" enctype="multipart/form-data">>
             <h2 class="title">Formulario de Contacto</h2>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required class="input_field">
@@ -17,6 +17,9 @@
 
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" rows="4" required class="input_field"></textarea>
+
+            <label for="archivo">Archivo:</label>
+            <input type="file" name="archivo" id="archivo">
             
             <button type="submit">Enviar</button>
         </form>
