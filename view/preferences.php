@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <form method="POST" action="../controller/controller.php" id="styleFormPreferences">
+    <form method="POST" action="../controller/procesar_preferencias.php" id="styleFormPreferences">
         <h2 class="title">Selecciona tus generos favoritos</h2>
         <div class="label_preferences">
                 <label for="aventura">  
@@ -15,23 +15,23 @@
                 </label>
             
                 <label for="Acción"> 
-                    <input type="checkbox" id="Acción" name="Acción" required class="space_marginbm label_layout"> Acción
+                    <input type="checkbox" id="accion" name="accion" required class="space_marginbm label_layout"> Acción
                 </label>
 
                 <label for="RPG"> 
-                    <input type="checkbox" id="RPG" name="RPG" required class="space_marginbm label_layout">RPG
+                    <input type="checkbox" id="rpg" name="rpg" required class="space_marginbm label_layout">RPG
                 </label>    
                 
                 <label for="Estrategia"> 
-                    <input type="checkbox" id="Estrategia" name="Estrategia" required class="space_marginbm label_layout">Estrategia
+                    <input type="checkbox" id="estrategia" name="estrategia" required class="space_marginbm label_layout">Estrategia
                 </label>
                 
                 <label for="Deportes"> 
-                    <input type="checkbox" id="Deportes" name="Deportes" required class="space_marginbm label_layout">Deportes
+                    <input type="checkbox" id="deportes" name="deportes" required class="space_marginbm label_layout">Deportes
                 </label>
 
                 <label for="Shooter"> 
-                    <input type="checkbox" id="Shooter" name="Shooter" required class="space_marginbm label_layout">Shooter
+                    <input type="checkbox" id="shooter" name="shooter" required class="space_marginbm label_layout">Shooter
                 </label>
                        
         </div>

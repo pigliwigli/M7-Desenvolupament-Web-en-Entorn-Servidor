@@ -1,0 +1,12 @@
+[
+    {
+        "username": "admi",
+        "password": "adminpass",
+        "mail": "admin@example.com"
+    },
+    {
+        "username": "admin",
+        "password": "$2y$10$RWv3iPajFGXiFzWnGjqBjunKt0sOYKKfaT6Qqm6.72aBNVfjCByPG",
+        "mail": "ericmansilla33@gmail.com"
+    }
+]
